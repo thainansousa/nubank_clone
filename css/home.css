@@ -1,3 +1,9 @@
+body.on{
+    overflow: hidden;
+}
+header{
+    z-index: 10;
+}
 section.container{
     padding: 20px 30px;
     display: flex;
@@ -67,4 +73,180 @@ section.container .logon a:last-child{
 }
 section.container .logon a:last-child:hover{
     background-color: #990ad1;
+}
+
+/* Menu mobile */
+section.container .menuMobile{
+    width: 48px;
+    height: 48px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+}
+section.container .menuMobile.on .one{
+    transform: rotate(45deg) translate(4px, 5px);
+    transition: 400ms;
+}
+section.container .menuMobile.on .two{
+    transform: rotate(-45deg) translate(-1px, 0px);
+    transition: 400ms;
+}
+section.container .menuMobile:hover{
+    background-color: #D09BE5;
+    opacity: 0.9;
+}
+section.container .menuToogle{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section.container .menuToogle div{
+    width: 40%;
+    height: 2px;
+    margin-bottom: 4px;
+    background-color: #333;
+}
+header .ContainerMenuMobile{
+    height: 100vh;
+    display: none; 
+}
+header .ContainerMenuMobile.on{
+    display: block;
+}
+header .ContainerMenuMobile.on nav ul{
+    list-style: none;
+    padding: 30px;
+    position: relative;
+    left: 0;
+    animation: menuActive 1s both;
+}
+@keyframes menuActive{
+    0%{
+        top: -500px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+header .ContainerMenuMobile.on nav ul li{
+    margin-top: 30px;
+}
+header .ContainerMenuMobile.on nav ul li:active a{
+    color: var(--purple-secondary-color);
+}
+header .ContainerMenuMobile.on nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #555;
+}
+header .ContainerMenuMobile.on nav ul li:first-child a{
+    color: var(--purple-primary-color);
+}
+header .ContainerMenuMobile.on .logon{
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: visibil 1s both;
+}
+@keyframes visibil{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        transition: 400ms;
+        opacity: 1;
+    }
+}
+header .ContainerMenuMobile.on .logon a{
+    text-decoration: none;
+}
+header .ContainerMenuMobile.on .logon a span{
+    background-image: url(../img/log-in.svg);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 20px;
+    display: inline-block;
+    margin: 0 5px;
+}
+header .ContainerMenuMobile.on .logon a:first-child{
+    color: var(--purple-primary-color);
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+}
+header .ContainerMenuMobile.on .logon a:last-child{
+    background-color: var(--purple-primary-color);
+    color: #fff;
+    width: 180px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 15px;
+    transition: 400ms;
+}
+header .ContainerMenuMobile.on .logon a:last-child:hover{
+    background-color: #990ad1;
+}
+/* end menu mobile */
+main{
+    padding: 60px 0;
+}
+main .bannerHome{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
+    background-image: url(../img/bannerwomenjumping.jpg);
+    background-size: cover;
+}
+main .bannerHome div{
+    width: 50%;
+}
+main .bannerHome div:first-child{
+    padding: 0 60px;
+    color: #fff;
+}
+main .bannerHome div:first-child h1{
+    font-size: 3em;
+}
+main .bannerHome div:first-child p{
+    font-size: 26px;
+    max-width: 370px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+main .bannerHome div:first-child a{
+    background-color: var(--purple-primary-color);
+    color: #fff;
+    display: block;
+    width: 80%;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+}
+main .bannerHome div:first-child a:hover{
+    background-color: #990ad1;
+}
+main .bannerHome div:nth-child(2) img{
+    width: 450px;
+    height: 580px;
+    position: absolute;
+    top: 330px;
+    right: 180px;
 }

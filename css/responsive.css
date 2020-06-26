@@ -1,0 +1,27 @@
+@media screen and (max-width: 780px){
+    section.container{
+        justify-content: space-between;
+    }
+    section.container .menu{
+        display: none;
+    }
+    section.container .menuMobile{
+        display: flex;
+    }
+    main{
+        padding: 0;
+    }
+    main .bannerHome{
+        width: 100%;
+        justify-content: center;
+    }
+    main .bannerHome div:first-child{
+        width: 100%;
+    }
+    main .bannerHome div:nth-child(2) img{
+        display: none;
+    }
+    main .bannerHome div:first-child a{
+       width: 100%;
+    }
+}
