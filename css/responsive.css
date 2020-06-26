@@ -13,15 +13,36 @@
     }
     main .bannerHome{
         width: 100%;
-        justify-content: center;
     }
     main .bannerHome div:first-child{
         width: 100%;
     }
-    main .bannerHome div:nth-child(2) img{
+    main .bannerHome div:nth-child(2){
         display: none;
     }
     main .bannerHome div:first-child a{
        width: 100%;
+    }
+}
+@media screen and (max-width: 660px){
+    main .bannerHome div:first-child{
+        padding: 0 30px;
+    }
+    main .bannerHome div:first-child h1{
+        font-size: 2em;
+    }
+    main .bannerHome div:first-child p{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 500px){
+    main .bannerHome div:first-child h1{
+        font-size: 1.5em;
+    }
+    main .bannerHome div:first-child p{
+        font-size: 20px;
+    }
+    main .bannerHome{
+        background-position: center;
     }
 }
