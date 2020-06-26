@@ -23,6 +23,42 @@
     main .bannerHome div:first-child a{
        width: 100%;
     }
+    section.accountDigital article{
+        flex-direction: column;
+    }
+    section.accountDigital article .description{
+        width: 100%;
+    }
+    section.accountDigital article h1 a{
+        font-size: 2em;
+        display: inline-block;
+        margin-top: 60px;
+    }
+    section.accountDigital article h1:nth-child(2){
+        font-size: 2em;
+    }
+    section.accountDigital article img{
+        height: 400px;
+        width: 380px;
+    }
+    section.cardCredit article{
+        flex-direction: column;
+    }
+    section.cardCredit article .description{
+        width: 100%;
+    }
+    section.cardCredit article h1 a{
+        font-size: 2em;
+        display: inline-block;
+        margin-top: 60px;
+    }
+    section.cardCredit article h1:nth-child(2){
+        font-size: 2em;
+    }
+    section.cardCredit article img{
+        height: 400px;
+    }
+    
 }
 @media screen and (max-width: 660px){
     main .bannerHome div:first-child{
@@ -45,10 +81,29 @@
     main .bannerHome{
         background-position: center;
     }
+    section.accountDigital article h1 a{
+        font-size: 1.5em;
+    }
+    section.accountDigital article h1:nth-child(2){
+        font-size: 1.5em;
+        max-width: 300px;
+        color: #000;
+    }
+    section.cardCredit article h1 a{
+        font-size: 1.5em;
+    }
+    section.cardCredit article h1:nth-child(2){
+        font-size: 1.5em;
+        max-width: 300px;
+        color: #000;
+    }
 }
 @media screen and (max-width: 320px){
     main .bannerHome div:first-child a{
         font-size: 14px;
+    }
+    section.accountDigital article img{
+        width: 320px;
     }
 
 }

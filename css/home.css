@@ -250,3 +250,164 @@ main .bannerHome div:nth-child(2) img{
     top: 330px;
     right: 180px;
 }
+
+section.accountDigital{
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    margin-top: 80px;
+}
+section.accountDigital article{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+section.accountDigital article .description{
+    width: 60%;
+}
+section.accountDigital article h1 a{
+    text-decoration: none;
+    font-size: 3em;
+    color: var(--purple-primary-color);
+}
+section.accountDigital article h1:first-child a:hover{
+    text-decoration: underline;
+}
+section.accountDigital article h1:nth-child(2){
+    font-size: 3em;
+    color: #111;
+    font-weight: 500;
+    max-width: 480px;
+    margin-bottom: 30px;
+}
+section.accountDigital article .description a.btnsecurity{
+    color: var(--purple-primary-color);
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    width: 260px;
+}
+section.accountDigital article .description a.btnsecurity span{
+    background-image: url(../img/arrow-left.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    transform: rotate(135deg);
+}
+section.accountDigital article img{
+    height: 600px;
+    margin-top: 50px;
+}
+section.cardCredit{
+    width: 100%;
+    margin-top: 80px;
+}
+section.cardCredit article{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+section.cardCredit article .description{
+    width: 60%;
+}
+section.cardCredit article h1 a{
+    text-decoration: none;
+    font-size: 3em;
+    color: var(--purple-primary-color);
+}
+section.cardCredit article h1:first-child a:hover{
+    text-decoration: underline;
+}
+section.cardCredit article h1:nth-child(2){
+    font-size: 3em;
+    color: #111;
+    font-weight: 500;
+    max-width: 480px;
+    margin-bottom: 30px;
+}
+section.cardCredit article .description a.btnsecurity{
+    color: var(--purple-primary-color);
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    width: 260px;
+}
+section.cardCredit article .description a.btnsecurity span{
+    background-image: url(../img/arrow-left.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 22px;
+    display: inline-block;
+    margin-left: 10px;
+    transform: rotate(180deg);
+}
+section.cardCredit article div:last-child{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+section.cardCredit article img{
+    height: 560px;
+    margin-top: 50px;
+}
+section.rewards{
+    width: 100%;
+    background-color: var(--purple-terciary-color);
+    margin-top: 80px;
+}
+section.rewards article{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+section.rewards article .description{
+    width: 60%;
+}
+section.rewards article h1 a{
+    text-decoration: none;
+    font-size: 3em;
+    color: var(--purple-quartiary-color);
+}
+section.rewards article h1:first-child a:hover{
+    text-decoration: underline;
+}
+section.rewards article h1:nth-child(2){
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    max-width: 480px;
+    margin-bottom: 30px;
+}
+section.rewards article .description a.btnsecurity{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    width: 260px;
+}
+section.rewards article div:last-child{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+section.rewards article .description a.btnsecurity span{
+    background-image: url(../img/arrow-left2.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    transform: rotate(135deg);
+}
+section.rewards article img{
+    height: 520px;
+    width: 380px;
+    margin-top: 50px;
+}
