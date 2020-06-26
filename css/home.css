@@ -1,0 +1,70 @@
+section.container{
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;
+}
+section.container img{
+    width: 50px;
+    margin-right: 50px;
+}
+section.container a{
+    text-decoration: none;
+}
+section.container .menu{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+section.container .menu nav ul{
+    display: flex;
+    align-items: center;
+    height: 48px;
+    list-style: none;
+}
+section.container .menu nav ul a{
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #555;
+}
+section.container .menu nav ul a:hover{
+    color: var(--purple-secondary-color);
+}
+section.container .menu nav ul a:first-child li{
+    color: var(--purple-primary-color);
+}
+section.container .logon{
+    display: flex;
+    align-items: center;
+}
+section.container .logon a span{
+    background-image: url(../img/log-in.svg);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 20px;
+    display: inline-block;
+    margin: 0 5px;
+}
+section.container .logon a:first-child{
+    color: var(--purple-primary-color);
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+}
+section.container .logon a:last-child{
+    background-color: var(--purple-primary-color);
+    color: #fff;
+    width: 180px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 15px;
+    transition: 400ms;
+}
+section.container .logon a:last-child:hover{
+    background-color: #990ad1;
+}

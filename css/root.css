@@ -1,0 +1,15 @@
+:root{
+    --purple-primary-color: #8A05BE;
+    --purple-secondary-color: #e079e0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, :root{
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}

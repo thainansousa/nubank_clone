@@ -1,0 +1,2 @@
+#8A05BE - purple-primary
+#C093FB - purple-secondary
