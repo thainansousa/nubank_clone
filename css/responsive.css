@@ -140,6 +140,10 @@
         font-size: 1.5em;
         max-width: 300px;
     }
+    section.rewards article img{
+        height: 460px;
+        width: 380px;
+    }
     section.group{
         background-size: contain cover;
         background-repeat: no-repeat;
@@ -159,6 +163,7 @@
         font-size: 1.8em;
         max-width: 300px;
     }
+    
 }
 @media screen and (max-width: 320px){
     main .bannerHome div:first-child a{
