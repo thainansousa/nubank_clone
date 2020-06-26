@@ -58,6 +58,42 @@
     section.cardCredit article img{
         height: 400px;
     }
+    section.rewards article{
+        flex-direction: column;
+    }
+    section.rewards article .description{
+        width: 100%;
+    }
+    section.rewards article h1 a{
+        font-size: 2em;
+        display: inline-block;
+        margin-top: 60px;
+    }
+    section.rewards article h1:nth-child(2){
+        font-size: 2em;
+    }
+    section.rewards article img{
+        height: 400px;
+        width: 320px;
+    }
+    section.group article h1{
+        font-size: 2.5em;
+    }
+    section.group{
+        background-position: center;
+    }
+    section.community article .description h1{
+        font-size: 2.5em;
+    }
+    section.menAndApp{
+        background-position: center;
+    }
+    section.menAndApp article h1{
+        font-size: 2.5em;
+    }
+    footer section.gridGroup{
+        grid-template-columns: 1fr;
+    }
     
 }
 @media screen and (max-width: 660px){
@@ -97,6 +133,32 @@
         max-width: 300px;
         color: #000;
     }
+    section.rewards article h1 a{
+        font-size: 1.5em;
+    }
+    section.rewards article h1:nth-child(2){
+        font-size: 1.5em;
+        max-width: 300px;
+    }
+    section.group{
+        background-size: contain cover;
+        background-repeat: no-repeat;
+    }
+    section.group .description h1{
+        font-size: 1.8em;
+        max-width: 300px;
+    }
+    section.community{
+        background-position: center;
+    }
+    section.community article .description h1{
+        font-size: 1.8em;
+        max-width: 300px;
+    }
+    section.menAndApp article .description h1{
+        font-size: 1.8em;
+        max-width: 300px;
+    }
 }
 @media screen and (max-width: 320px){
     main .bannerHome div:first-child a{
@@ -104,6 +166,9 @@
     }
     section.accountDigital article img{
         width: 320px;
+    }
+    section.group{
+        background-size: 660px 600px;
     }
 
 }

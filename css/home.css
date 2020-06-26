@@ -352,8 +352,8 @@ section.cardCredit article div:last-child{
     justify-content: center;
 }
 section.cardCredit article img{
-    height: 560px;
-    margin-top: 50px;
+    height: 660px;
+    transform: translateY(80px);
 }
 section.rewards{
     width: 100%;
@@ -409,5 +409,195 @@ section.rewards article .description a.btnsecurity span{
 section.rewards article img{
     height: 520px;
     width: 380px;
-    margin-top: 50px;
+    margin: 50px 0;
+}
+section.group{
+    width: 100%;
+    background-image: url(../img/reuniao.jpg);
+    background-size: cover;
+    height: 600px;
+}
+section.group article{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+section.group article .description{
+    width: 60%;
+}
+section.group article h1{
+    font-size: 3em;
+    max-width: 300px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+section.group article .description a.btnsecurity{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    width: 260px;
+}
+section.group article .description a.btnsecurity span{
+    background-image: url(../img/arrow-left2.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    transform: rotate(180deg);
+}
+section.community{
+    width: 100%;
+    background-image: url(../img/community.jpg);
+    background-size: cover;
+    height: 600px;
+}
+section.community article{
+    width: 90%;
+    margin: 0 auto;
+}
+section.community article .description{
+    width: 60%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section.community article h1{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+section.community article h1:nth-child(2){
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    max-width: 440px;
+    margin-bottom: 30px;
+}
+section.community article .description a.btnsecurity{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    width: 390px;
+}
+section.community article .description a.btnsecurity span{
+    background-image: url(../img/arrow-left2.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    transform: rotate(135deg);
+}
+section.menAndApp{
+    width: 100%;
+    background-image: url(../img/menandsmartphone.jpg);
+    background-size: cover;
+    background-position-y: -120px;
+    height: 600px;
+}
+section.menAndApp article{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+section.menAndApp article .description{
+    width: 60%;
+}
+section.menAndApp article h1{
+    font-size: 3em;
+    max-width: 460px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+section.menAndApp article .description a.btnsecurity{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    width: 260px;
+}
+section.menAndApp article .description a.btnsecurity span{
+    background-image: url(../img/arrow-left2.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    transform: rotate(180deg);
+}
+footer{
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+}
+footer section.gridGroup{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+footer section.gridGroup div{
+    margin-top: 60px;
+}
+footer section.gridGroup div span{
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #888;
+}
+footer section.gridGroup div li{
+    margin-bottom: 10px;
+}
+footer section.gridGroup div li a{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+footer section.gridGroup div li a:hover{
+    color: var(--purple-secondary-color);
+}
+footer section.gridGroup div:last-child{
+    display: flex;
+    flex-direction: column;
+}
+footer section.gridGroup div img{
+    width: 160px;
+    height: 100px;
+}
+footer section.developer{
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+footer section.developer strong{
+    color: var(--purple-primary-color);
+}
+footer section.developer a{
+    color: #fff;
+}
+footer section.developer a i{
+    font-size: 32px;
+    margin: 10px;
+}
+footer section.developer a:hover i{
+    color: var(--purple-secondary-color);
 }
